@@ -1,3 +1,4 @@
 .gradle
 out
-jenkins.txt
+Jenkins.txt
+build

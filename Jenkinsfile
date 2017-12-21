@@ -23,11 +23,11 @@ pipeline{
                 sh "./gradlew build"
             }
         }
-        stage("fatJar") {
+        /*stage("fatJar") {
             steps {
                 sh "./gradle fatJar"
             }
-        }
+        }*/
     }
     post {
         always {
