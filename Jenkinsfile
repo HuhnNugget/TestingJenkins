@@ -23,15 +23,31 @@ pipeline{
                 sh "./gradlew build"
             }
         }
-        /*stage("fatJar") {
+        /*
+        stage("Test") {
+            steps {
+                sh "./Test..."
+            }
+        }
+        stage("fatJar") {
             steps {
                 sh "./gradle fatJar"
+            }
+        }
+        stage('Deploy'){
+            when {
+                allOf {
+                    branch 'master'; expression {currentBuild.result == null || currentBuild.result == 'SUCCESS'}
+                }
+            }
+            steps {
+                sh "./deploy"
             }
         }*/
     }
     post {
         always {
-            echo "Pipline wurde durchloffen"
+            echo "Pipline wurde durchloffen und deployed"
         }
     }
 
