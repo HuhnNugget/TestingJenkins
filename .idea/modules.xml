@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Jenkins.Test.iml" filepath="$PROJECT_DIR$/.idea/modules/Jenkins.Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Jenkins.Test_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Jenkins.Test_main.iml" group="Jenkins.Test" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Jenkins.Test_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Jenkins.Test_test.iml" group="Jenkins.Test" />
+    </modules>
+  </component>
+</project>
